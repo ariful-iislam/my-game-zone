@@ -25,10 +25,10 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-evenly;
-    padding: 50px 150px;
+    padding: 100px 250px;
     align-items: center;
 }
-.banner-info{
+.banner-info, .gamer-info{
     width: 50%;
 }
 .banner-title{
@@ -52,7 +52,7 @@ nav li a{
 .gamer{
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-    padding: 100px 240PX;
+    padding: 120px 270PX;
     width: 1920px;
 height: 600px;
 flex-shrink: 0;
@@ -61,19 +61,41 @@ justify-content: center;
 .gamer-info{
    text-align: right;
 }
+/* online game section */
+.online-info{
+    text-align: center;
+}
+.online-img ul{
+    display: flex;
+    padding: 10px;
+}
+.online-img li{
+    display: flex;
+    padding: 10px;
+    
+}
+
 
 
 @media screen and (max-width: 576px) {
-    nav{
+    nav, nav>ul{
         display: flex;
         flex-direction: column;
+        padding: 30px;
+        text-align: center;
     }
-    .banner{
+    .banner, .gamer{
         display: flex;
-        justify-content: space-evenly;
-        padding: 50px 150px;
-        align-items: center;
+        text-align: center;
+        padding: 30px;
         flex-direction: column;
     }
     
 }   
+.online-img ul{
+    display: flex;
+    flex-direction: column;
+}
+.online-img li{
+    display: flex;
+    padding: 10px;
