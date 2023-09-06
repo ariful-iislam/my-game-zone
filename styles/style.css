@@ -65,14 +65,12 @@ justify-content: center;
 .online-info{
     text-align: center;
 }
-.online-img ul{
+.online-game{
     display: flex;
     padding: 10px;
 }
-.online-img li{
-    display: flex;
+.game-img{
     padding: 10px;
-    
 }
 
 
@@ -90,12 +88,18 @@ justify-content: center;
         padding: 30px;
         flex-direction: column;
     }
+    .online-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .online-game{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+
+
     
 }   
-.online-img ul{
-    display: flex;
-    flex-direction: column;
-}
-.online-img li{
-    display: flex;
-    padding: 10px;
+
