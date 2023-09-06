@@ -72,6 +72,19 @@ justify-content: center;
 .game-img{
     padding: 10px;
 }
+.play-game{
+    display: flex;
+    padding: 40px 100px;
+    text-align: center;
+    gap: 30px;
+}
+.play-info{
+    padding-top: 120px;
+}
+.play-img-sm{
+    margin-top: -250px;
+    margin-left: -320px;
+}
 
 
 
