@@ -34,6 +34,10 @@ nav li a{
 .banner-title{
     color:#F948B2;
 }
+.banner-info-img{
+    width: 100%;
+    height: auto;
+}
 .btn-primary{
     border-radius: 48px;
     background:  #ff42a5;
@@ -113,14 +117,30 @@ justify-content: center;
         padding: 30px;
         flex-direction: column;
     }
+    .banner-info-img{
+        max-width: 90%;
+        height: auto;
+    }
     .online-img {
         display: flex;
         flex-direction: column;
+        max-width: 90%;
+        height: auto;
     }
     .online-game{
         display: flex;
         flex-direction: column;
         padding: 10px;
+    }
+    .play-game{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .play-game-online{
+        display: flex;
+        flex-direction: column-reverse;
+        
     }
 
 
